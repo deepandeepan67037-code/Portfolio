@@ -1,0 +1,182 @@
+.about-section {
+  position: relative;
+
+  padding: 100px 25px;
+
+  background: #000;
+
+  color: white;
+
+  overflow: hidden;
+}
+
+.about-container {
+  max-width: 1100px;
+
+  margin: auto;
+}
+
+/* Section Heading */
+
+.section-heading {
+  text-align: center;
+
+  margin-bottom: 60px;
+}
+
+.section-heading p {
+  color: #1683ff;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 10px;
+
+  text-shadow:
+    0 0 10px #0066ff;
+}
+
+.section-heading h2 {
+  font-size: 45px;
+
+  font-weight: bold;
+}
+
+.section-heading h2 span {
+  color: #1683ff;
+
+  text-shadow:
+    0 0 5px #1683ff,
+    0 0 15px #0066ff,
+    0 0 30px #0066ff;
+}
+
+/* Content */
+
+.about-content {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+/* About Text */
+
+.about-text h3 {
+  font-size: 28px;
+
+  margin-bottom: 25px;
+}
+
+.about-text h3 span {
+  color: #1683ff;
+}
+
+.about-text p {
+  color: #999;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+
+  margin-bottom: 20px;
+}
+
+/* About Card */
+
+.about-card {
+  padding: 30px;
+
+  border: 1px solid rgba(0, 102, 255, 0.4);
+
+  border-radius: 15px;
+
+  background: rgba(5, 15, 30, 0.7);
+
+  box-shadow:
+    0 0 15px rgba(0, 102, 255, 0.2);
+
+  backdrop-filter: blur(10px);
+}
+
+.about-card-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-card-item:last-child {
+  border-bottom: none;
+}
+
+.about-card-item > span {
+  font-size: 30px;
+}
+
+.about-card-item h4 {
+  color: #1683ff;
+
+  font-size: 18px;
+
+  margin-bottom: 5px;
+}
+
+.about-card-item p {
+  color: #999;
+
+  font-size: 14px;
+}
+
+/* Hover */
+
+.about-card-item:hover h4 {
+  text-shadow:
+    0 0 10px #0066ff;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 80px 20px;
+  }
+
+  .section-heading {
+    margin-bottom: 40px;
+  }
+
+  .section-heading h2 {
+    font-size: 36px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .about-text h3 {
+    font-size: 24px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .about-card {
+    padding: 20px;
+  }
+}
