@@ -31,7 +31,7 @@ const Experience = () => {
                 </div>
 
                 <span className="experience-date">
-                  July 2026 - Sep 2026
+                  July 2026 - Aug 2026
                 </span>
               </div>
 
