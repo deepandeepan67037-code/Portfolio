@@ -3,7 +3,6 @@ import "./Education.css";
 const Education = () => {
   return (
     <section id="education" className="education-section">
-
       <div className="education-container">
 
         {/* Heading */}
@@ -15,31 +14,23 @@ const Education = () => {
           </h2>
         </div>
 
-        {/* Education Card */}
+        {/* College Education */}
         <div className="education-card">
-
           <div className="education-icon">
             🎓
           </div>
 
           <div className="education-content">
-
             <div className="education-top">
-
               <div>
-                <h3>
-                  Bachelor of Computer Science
-                </h3>
+                <h3>Bachelor of Computer Science</h3>
 
-                <h4>
-                  Ganamani College of Technology
-                </h4>
+                <h4>Ganamani College of Technology</h4>
               </div>
 
               <span className="education-year">
                 2023 - 2027
               </span>
-
             </div>
 
             <p className="education-description">
@@ -53,13 +44,44 @@ const Education = () => {
               <span>Programming</span>
               <span>Web Development</span>
             </div>
+          </div>
+        </div>
 
+        {/* School Education */}
+        <div className="education-card">
+          <div className="education-icon">
+            📖
           </div>
 
+          <div className="education-content">
+            <div className="education-top">
+              <div>
+                <h3>Maths Computer</h3>
+
+                <h4>Government Higher Secondary School</h4>
+              </div>
+
+              <span className="education-year">
+                2021 - 2023
+              </span>
+            </div>
+
+            <p className="education-description">
+              Completed Higher Secondary Education in the
+              Maths Computer Science stream, developing
+              foundational knowledge in mathematics and
+              computer science.
+            </p>
+
+            <div className="education-tags">
+              <span>Mathematics</span>
+              <span>Computer Science</span>
+              <span>Programming</span>
+            </div>
+          </div>
         </div>
 
       </div>
-
     </section>
   );
 };

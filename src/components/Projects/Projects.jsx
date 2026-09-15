@@ -3,34 +3,6 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Line Follower Robot",
-      category: "Arduino / IoT",
-      icon: "🤖",
-      description:
-        "Developed an autonomous robot using Arduino, IR sensors, and dual DC motors to follow predefined paths. Implemented real-time line tracking, speed control, and automatic path correction.",
-      technologies: [
-        "Arduino",
-        "IR Sensors",
-        "DC Motors",
-        "C Programming",
-      ],
-    },
-
-    {
-      title: "Arduino Obstacle Avoiding Robot",
-      category: "Arduino / IoT",
-      icon: "🚗",
-      description:
-        "Built a self-navigating robot using Arduino Uno, ultrasonic sensors, and motor drivers. Implemented real-time obstacle detection and automatic reverse-and-turn movements for safe navigation.",
-      technologies: [
-        "Arduino Uno",
-        "Ultrasonic Sensor",
-        "Motor Driver",
-        "C Programming",
-      ],
-    },
-
-    {
       title: "Portfolio Website",
       category: "Web Development",
       icon: "💻",
@@ -41,6 +13,36 @@ const Projects = () => {
         "HTML",
         "CSS",
         "JavaScript",
+      ],
+    },
+    
+    {
+      title: "Learning Management System Website",
+      category: "Web Development",
+      icon: "📖",
+      description:
+        "Developed a Learning Management System (LMS) website using React.js and Vite for online course management. Implemented student registration, login, course enrollment, progress tracking, and certificate generation features.",
+      technologies: [
+        "React.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+      ],
+    },
+    
+     {
+      title: "Line Follower Robot",
+      category: "Arduino / IoT",
+      icon: "🤖",
+      description:
+        "Developed an autonomous robot using Arduino, IR sensors, and dual DC motors to follow predefined paths. Implemented real-time line tracking, speed control, and automatic path correction.",
+      technologies: [
+        "Arduino",
+        "IR Sensors",
+        "DC Motors",
+        "C Programming",
       ],
     },
   ];
